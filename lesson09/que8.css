@@ -1,0 +1,30 @@
+div {
+    text-align: center;
+}
+
+.google-logo {
+    width: 250px;
+}
+
+.search-box {
+    width: 400px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 25px;
+    border: 1px solid rgb(200, 200, 200);
+    font-size: 16px;
+}
+
+.buttons {
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    margin-right: 10px;
+    border-radius: 10px;
+}
