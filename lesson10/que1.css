@@ -1,0 +1,41 @@
+.container {
+  width: 400px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  font-family: Arial;
+}
+.profile-pic {
+  width: 60px;
+  height: 60px;
+  border-radius: 30px;
+  object-fit: cover;
+  vertical-align: middle;
+}
+.info {
+  display: inline-block;
+  width: 150px;
+  vertical-align: middle;
+  margin-left: 10px;
+  line-height: 4px; /* This makes gap small */
+}
+.name {
+  font-weight: bold;
+  font-size: 16px;
+}
+.sub, .status {
+  color: rgb(100,100,100);
+  font-size: 14px;
+}
+.follow-btn {
+  display: inline-block;
+  vertical-align: middle;
+  background-color: rgb(29, 155, 240);
+  color: white;
+  border: none;
+  font-weight: bold;
+  padding: 8px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 50px;
+}
