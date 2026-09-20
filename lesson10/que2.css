@@ -1,0 +1,30 @@
+.profile {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 350px;
+  margin-bottom: 15px;
+  font-family: Arial;
+}
+.pic {
+  width: 60px;
+  height: 60px;
+  border-radius: 30px;
+  object-fit: cover;
+}
+.info {
+  flex: 1;
+  margin-left: 15px;
+  line-height: 4px;
+}
+.name { font-weight: bold; }
+.desc, .status { color: gray; font-size: 14px; }
+.follow {
+  background-color: rgb(29,155,240);
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
+}
